@@ -1,0 +1,37 @@
+.fundo{
+    background-color: #E9DEFF;
+}
+
+.container-personagens{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+  }
+
+  .card {
+    width: 150px;
+    height: 180px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card img {
+    width:214px;
+    height:227px;
+  }
+
+.azul { background-color: #9FD0FE; }
+.rosa { background-color: #f7a8b8; }
+.verde { background-color: #a2d149; }
+
+.imagem{
+    width:214px;
+    height:227px;
+}
