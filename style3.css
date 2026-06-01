@@ -1,41 +1,70 @@
-.fundo {
-  background-color: #67F27C;
+/* Remove margens padrão do navegador */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.title {
-  font-family: "Kaushan Script", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 64px;
+/* Corpo da página */
+body{
+    background-color: #67F27C;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+/* Caixa principal */
+.container{
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.instrument-sans-uniquifier {
-  font-family: "Instrument Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-  font-size: 50px;
+.voltar{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
 }
 
-.card-verde {
-  background-color: #BDF8AE;
-  padding: 50px;
-  border-radius: 25px;
-  width: 300px;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.texto{
+    width: 660px;
 }
 
-.imagem {
-  width: 500px;
-  height: 300px;
-  border-radius: 25px;
-  display: flex;
-  justify-content: center;
-  text-align: right;
+.texto h1{
+    font-size: 50px;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
 }
 
+.texto p{
+    font-size: 28px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.imagem{
+    width: 400px;
+    height: 400px;
+    background-color: #BDF8AE;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem img{
+    width: 80%;
+    border-radius: 20px;
+}
