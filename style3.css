@@ -16,7 +16,7 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-  font-size: 10px;
+  font-size: 50px;
 }
 
 .card-verde {
@@ -35,7 +35,7 @@
   height: 300px;
   border-radius: 25px;
   display: flex;
-  flex-direction: row-reverse;
   justify-content: center;
-  align-items: center;
+  text-align: right;
 }
+
