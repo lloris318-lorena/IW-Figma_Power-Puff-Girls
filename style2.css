@@ -1,9 +1,111 @@
-.fundo{
-    background-color: #E9DEFF;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-.fundo-roxo{
-    background-color: #915DA6;
-    width: 1900px;
-    height: 500px;
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#E9DEFF;
+    font-family:"Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+    width:1200px;
+    height:650px;
+    background:#915DA6;
+    position:relative;
+}
+
+header{
+    height:80px;
+    background:#D6BFE7;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+
+.home{
+    position:absolute;
+    left:20px;
+    color:black;
+    font-size:32px;
+    font-weight:bold;
+    font-style:italic;
+}
+
+header h1{
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size:55px;
+  font-weight:normal;
+}
+
+main{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding-top:50px;
+}
+
+.login-box{
+    width:550px;
+    height:330px;
+    background:#D6B7E2;
+    border-radius:15px;
+    padding:30px;
+}
+
+.login-box label{
+    display:block;
+    font-family: "Kaushan Script", cursive;
+    font-size:28px;
+    margin-bottom:8px;
+    margin-top:10px;
+}
+
+.login-box input{
+    width:100%;
+    height:45px;
+    border:none;
+    border-radius:15px;
+    background:#FBE1FE;
+    margin-bottom:20px;
+    padding-left:15px;
+}
+
+.botoes{
+    display:flex;
+    justify-content:space-between;
+    margin-top:30px;
+}
+
+.botoes button{
+    width:150px;
+    height:50px;
+    border:none;
+    border-radius:15px;
+    background:#ADFCFF;
+    font-family: "Kaushan Script", cursive;
+    font-size:24px;
+    cursor:pointer;
+}
+
+.personagens{
+    position:absolute;
+    top:95px;
+    right:40px;
+    display:flex;
+    gap:10px;
+}
+
+.personagens img{
+    width:300px;
 }
